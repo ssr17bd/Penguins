@@ -20,7 +20,7 @@ This app predicts the **Palmer Penguin** species!
 st.sidebar.header('User Input Features')
 
 st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/ssr17bd/Penguins/master/penguins_example.csv)
+[Example CSV input file](https://raw.githubusercontent.com/ssr17bd/Penguins-Repo/master/penguins_example.csv)
 """)
 st.set_option('deprecation.showfileUploaderEncoding', False)
 uploaded_file = st.sidebar.file_uploader('Upload your input CSV file', type=['csv'])
